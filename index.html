@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html>
+<header>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="js/myjs.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="./myCSS/default.css">
+	<link rel="stylesheet" type="text/css" href="./myCSS/VideoDiv.css">
+	<meta http-equiv = "Content-Type" content="text/html; charset=UTF-8">
+
+
+
+
+
+	<title>Sketch to Web v0.3</title>
+</header>
+
+<body onLoad="VariableTime()">
+	<!-- Start of StatCounter Code for Default Guide -->
+		<script type="text/javascript">
+		var sc_project=8714010; 
+		var sc_invisible=0; 
+		var sc_security="f900c362"; 
+		var scJsHost = (("https:" == document.location.protocol) ?
+		"https://secure." : "http://www.");
+		document.write("<sc"+"ript type='text/javascript' src='" +
+		scJsHost+
+		"statcounter.com/counter/counter.js'></"+"script>");
+		</script>
+		<noscript><div class="statcounter"><a title="web statistics"
+		href="http://statcounter.com/free-web-stats/"
+		target="_blank"><img class="statcounter"
+		src="http://c.statcounter.com/8714010/0/f900c362/0/"
+		alt="web statistics"></a></div></noscript>
+		<!-- End of StatCounter Code for Default Guide -->
+		<a href="http://statcounter.com/p8714010/?guest=1">View My
+		Stats</a>
+	<!-- END OF StatCounter Code for Default Guide-->
+	<div class="Logo">
+	<img src="./pic/vist.png" alt="logo" ><br>
+	</div>
+	
+	<section class="whole">
+	<section class="linkTable">
+	<nav>
+	<a href="./file/CV version 1.1.pdf">MY CV</a><br>
+	<a href="http://paparazzi.enac.fr/">Paparazzi UAS</a><br>
+	<a href="https://learn.sparkfun.com/tutorials">Tutorials on SparkFun</a><br>
+	<a href="http://www.linkedin.com/pub/edward-huang/38/639/83b">LinkedIn</a><br>
+	<a href="http://blog.csdn.net/qawsqaer">CSDN Blog</a><br>
+	<a href="http://www.cse.cuhk.edu.hk">Link to CSE@CUHK</a><br>
+	<a href="http://appsrv.cse.cuhk.edu.hk/~sqhong2/test01/login.html">CSCI3100 Project</a><br>
+	</nav>
+	</section>
+	
+	
+	<section class="contentTable">
+	<hgroup>
+		<div id="p1">
+		</div>
+		<h1>THIS IS A PESONAL WEBPAGE OF EDWARD HUANG</h1>
+		<hr>
+		<h2>Edward Huang is a undergradute student under the 2+2 proragm between SYSU&CUHK<br>
+			He majors in Computer Engeering.
+		</h2>
+		<hr>
+		
+		
+		<section>
+		
+		<div class="COURSES">
+			<h3 class="CourseTitle" onclick="toggleCourseContent()">COURSES IN 2013-2014 TERM 2<h3>
+			<h4 class="courseContent">
+			<li>CENG3490 VLSI Design</li>
+			<li>CSCI4140 Open Source Project</li>
+			<li>CSCI4190 Social Network</li>
+			</h4>
+		</div>
+		
+		<div class="COURSES">
+			<h3 class="CourseTitle" onclick="toggleCourseContent()">Final Year Project Term 1</h3>
+			<p>Quadcopter Swarm</p>
+			<h4 class="courseContent">
+				<ul>
+				<h2>VIDEO</h2>
+					<!-- THE VIDEO OF GPS TRACKING PROTOTYPE -->
+					<li><a href="http://v.youku.com/v_show/id_XNjI3NDc1Nzky.html">GPS TRACKING PROTOTYPE USING PAPARAZZI UAS</a></li>
+					<h3 class="header_Of_Hidder_Video" onclick='$("#gps_tracking_prototype").toggle();'>click to watch</h3>
+					<div id="gps_tracking_prototype" class="videoHidden">
+					<embed src="http://player.youku.com/player.php/sid/XNjI3NDc1Nzky/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+					</div>
+					<!-- THE VIDEO OF JAMMING CAUSED BY BROADCAST COMMUNICATION -->
+					<li><a href="http://v.youku.com/v_show/id_XNjQxODIzNDIw.html">DEMO OF JAMMING CASUED BY BROADCAST MODE</a></li>
+					<h3 class="header_Of_Hidder_Video" onclick='$("#demo_of_broadcat_mode").toggle();'>click to watch</h3>
+					<div id = "demo_of_broadcat_mode" class="videoHidden">
+					<embed src="http://player.youku.com/player.php/sid/XNjQxODIzNDIw/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+					</div>
+					
+					<a href="./FYP/FYP REPORT TERM 1V1.1.pdf">Presentation file</a>
+					<!--------------------------------------------->
+				</ul>
+			</h4>
+		</div>
+		
+		<div class="COURSES">
+			<h3 class="CourseTitle" onclick="toggleCourseContent()">COURSES IN 2013-2014 TERM 1<h3>
+			<h4 class="courseContent">
+			<li>ELEG4260 CMOS Integrated Circuit</li>
+			<li>IERG4130 Introduction to CyberSecurity</li>
+			<li>CSCI3170 Introduction to Database</li>
+			</h4>
+		</div>
+		<div class="COURSES">
+			<h3 class="CourseTitle" onclick="toggleCourseContent()">Summer Research in 2012-2013</h3>
+				<p>QUAD-COPTER</p>
+				<h4 class="courseContent">
+				<ul>
+					<a href="http://paparazzi.enac.fr/">Paparazzi Autopilot Open Source Project</a>
+					<div>
+						
+						<h2>VIDEO</h2>
+						<div id="the_second_flight">
+						<!--THE SECOND FLIGHT-->
+						<li><a href="http://v.youku.com/v_show/id_XNTcwMzE4MzA4.html">The second Flight</a></li>
+						
+						<h3 class="header_Of_Hidder_Video" onclick='$("#the_second_flight_a").toggle();'>PART A click to watch</h3>
+							<div id ="the_second_flight_a" class="videoHidden">
+							<embed id="embed_second_flight_part_a" src="http://player.youku.com/player.php/sid/XNTcwMzE4MzA4/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+							</div>
+						
+						<h3 class="header_Of_Hidder_Video" onclick='$("#the_second_flight_b").toggle();'> PART B click to watch</h3>
+							<div id ="the_second_flight_b" class="videoHidden">
+							<embed id="embedded_second_flight_part_b" src="http://player.youku.com/player.php/sid/XNTcwMzIwMTU2/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+							</div>
+						</div>
+						<!-- -->
+						
+						
+						
+						<li><a href="http://v.youku.com/v_show/id_XNTY3ODUwMjA4.html">PID TUNING</a></li>
+						<h3 class="header_Of_Hidder_Video" onclick='$("#pid_tuning").toggle();'>click to watch</h3>
+						<div id = "pid_tuning" class="videoHidden">
+						<embed src="http://player.youku.com/player.php/sid/XNTY3ODUwMjA4/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+						</div>
+						<!-- -->
+						
+						<li><a href="">The first Flight</a></li>
+						<h3 class="header_Of_Hidder_Video" onclick='$("#the_first_flight").toggle();'>click to watch</h3>
+						<div id = "the_first_flight" class="videoHidden">
+						<embed src="http://player.youku.com/player.php/sid/XNTY2NzQ3MzQ4/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+						</div>
+					</div>
+				</ul>
+				</h4>
+		</div>
+		
+		
+		
+		<div class="COURSES">
+			<h3 class="CourseTitle"onclick = "toggleCourseContent()">COURSES IN 2012-2013 TERM 2</h3>
+			<h4 class="courseContent"><ul>
+			<li><a href="http://appsrv.cse.cuhk.edu.hk/~kktong/csci3420/">CSCI3420 Computer Architecture</a></li>
+			<li><a href="http://appsrv.cse.cuhk.edu.hk/~csci3100">CSCI3100 Software Engineering</a></li>
+			<li><a href="http://appsrv.cse.cuhk.edu.hk/~csci4430">CSCI4430 Data Communication & Computer Network</a></li>
+			<li>ENGG2310 Principle of Communication System</li>
+			  <li>ELEG2860 Professional Engineering Practice</li>
+			<li>UGED2291 Chinese Cultural Heritage in Art</li>
+			  <li>UGEA2190 Chinese Society</li>
+		</ul></h4>
+		</div>
+		
+		<div class="COURSES">
+			<h3 class="CourseTitle" onclick ="toggleCourseContent()">COURSES IN 2012-2013 TERM 1</h3>
+		<h4 class="courseContent"><ul>
+			<li><a href="http://appsrv.cse.cuhk.edu.hk/~csci3150/">CSCI3150 Introduction to Operating System</a></li>
+			<li><a href="http://appsrv.cse.cuhk.edu.hk/~csci3190">CSCI3190 Introduction to Discrete Mathematics and Algorithms</a></li>
+			<li><a href="http://appsrv.cse.cuhk.edu.hk/~csci3260">CSCI3260 Principle of Computer Graphics</a></li>
+			<li><a href="http://appsrv.cse.cuhk.edu.hk/~ceng3430">CENG3430 Rapid Prototyping of Digital System</a></li>
+			<li><a href="http://appsrv.cse.cuhk.edu.hk/~ceng4480">CENG4480 Embedded Systems Development and Applications</a></li>
+			<li>UGEC1540 Government & Politics of China</li>
+		</ul></h4>
+		</div>
+		
+		<p id="time1"></p> 
+		<p id="Last_Editted">Last Editted at 2013/12/24</p>
+		</section>
+	</hgroup>
+	</section>
+	
+	
+	
+</body>
+<footer>
+
+</footer>
+</html> 
