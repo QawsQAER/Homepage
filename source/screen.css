@@ -24,7 +24,7 @@ body {
   #menu ul {padding-left:0; margin:0;}
   #menu li {margin-bottom:23px; list-style: none;}
   
-  #menu a {
+  #menu div {
     width:236px;
     height:30px;
     background:#4e352f;
@@ -36,7 +36,11 @@ body {
     font-size:1.2em;
     text-decoration:none;
   }
-  #menu a:hover {background:#1f826b; text-decoration:underline;}
+  #menu div:hover {
+  	cursor: pointer;
+	background:#1f826b;
+	text-decoration:underline;
+	}
   
 #header {
   width:440px;
