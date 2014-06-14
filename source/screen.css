@@ -3,7 +3,10 @@
 
 body {
   background: #4b322c;
+  /*
   font-family:Calibri, Verdana, Arial, Helvetica, sans-serif;
+  */
+  font-family:Consolas;
   font-size:1em;
   color:#fff;
 }
@@ -102,8 +105,24 @@ body {
     padding-top:3px;
   }
   
-a {
-  color:#383838;
+a.link {
+	font-family: "Times New Roman";
+	display:block;
+	color:#ffffff;
+	padding-left:30px;
+	padding-top:15px;
+	padding-bottom:7px;
+	width:236px;
+	height:30px;
+	font-size:"1.2em";
+}
+a.link:hover
+{
+	font-family: "Times New Roman";
+	color:#000000;
+	background-color:#a0e000;
+	width:236px;
+	height:30px;
 }
 
 .img-center {
