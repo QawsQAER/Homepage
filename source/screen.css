@@ -162,3 +162,15 @@ a.link:hover
 }
 
 .videoHidden {display: none}
+
+.header_Of_Hidden_Video 
+{
+	cursor: pointer;
+	text-decoration:none;
+}
+
+.header_Of_Hidden_Video:hover
+{
+	background-color:#a00000;;
+	text-decoration:underline;
+}
