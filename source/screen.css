@@ -94,7 +94,7 @@ body {
     padding-left:8px;
     padding-bottom:4px;
   }
-  .heading a:hover {background:transparent; text-decoration:none;}
+  .heading a:hover {text-decoration:none;}
   
   .article_footer {
     width:426px;
