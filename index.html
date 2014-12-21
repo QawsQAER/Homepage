@@ -23,8 +23,11 @@
 		http://getbootstrap.com/examples/sticky-footer/
 	-->
 	<link href='css/sticky-footer.css' rel='stylesheet'>
-
+	
+	<script src='js/jquery-1.11.2.min.js'></script>
 	<script src='assets/js/ie-emulation-modes-warning.js'></script>
+	<script src='dist/js/bootstrap.min.js'></script>
+
 </head>
 
 <body role="document">
@@ -45,7 +48,7 @@
 			<div id='navbar' class='navbar-collapse collapse'>
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#news">News</a></li>
+					<li><a href="#projects">Projects</a></li>
 					<li><a href="#about">About</a></li>
 					<li><a href="#contact">Contact Info</a></li>
 					<li><a href="#">中文</a></li>
@@ -66,7 +69,7 @@
 			</div>
 		</div>
 
-		<a name="project"></a>
+		<a name="projects"></a>
 		<div class="page-header">
 			<h1>Projects</h1>
 		</div>
@@ -77,14 +80,19 @@
 				<h5>
 					<span class="label label-primary">Embedded System</span>
 					<span class="label label-primary">OpenCV</span>
+				<button type="button" 
+					class="btn btn-xs btn-default" 
+					data-toggle="collapse" 
+					data-target="#HighlyAutomaticPhototakingRobotDetails">
+					details
+				</button>
 				</h5>
-
-				<p>
+				<div id="HighlyAutomaticPhototakingRobotDetails" class="collapse out">
 					In this project, my team has built a robot car that can detect human faces in the scope and then find the perfect orientation and angle to take a group photos.<br>
 					This project has won a second price in Embedded System Design Contest, China 2014.
-				</p>
+				</div>
 			</div>
-			
+
 			<div class="project-slot">
 				<h3>Quadcopter Formation</h3>
 				<h5>
@@ -99,20 +107,32 @@
 				<h5>
 					<span class="label label-primary">Cloud Computing</span>
 					<span class="label label-primary">IaaS</span>
+				<button type="button" 
+					class="btn btn-xs btn-default" 
+					data-toggle="collapse" 
+					data-target="#localCloudDetails">
+					details
+				</button>
 				</h5>
-				<p> This project try to set up a local cloud computing environment using <mark>Openstack</mark> and Berkeley Data Analytic Stack in the local servers in our campus
-				</p>
+				<div id="localCloudDetails" class="collapse out"> This project try to set up a local cloud computing environment using <mark>Openstack</mark> and Berkeley Data Analytic Stack in the local servers in our campus
+				</div>
 			</div>
 			
 			<div class="project-slot">
 				<h3>Tomasulo Algorithm's Simulation</h3>
 				<h5>
 					<span class="label label-primary">CPU architecture</span>
+				<button type="button" 
+					class="btn btn-xs btn-default" 
+					data-toggle="collapse" 
+					data-target="#TomasuloDetails">
+					details
+				</button>
 				</h5>
-				<p>
+				<div id="TomasuloDetails" class="collapse out">
 					This project implement a simulation of the famous Tomasulo Algorithm which enables the out-of-order execution of a superscalar CPU.
 					It is a course project.
-				</p>
+				</div>
 			</div>
 
 
