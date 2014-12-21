@@ -1,31 +1,114 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
-<!-- DECLARATION -->
-<!--This template  downloaded from http://all-free-download.com/free-website-templates/ -->
-<!--<div id="footer">Template by <a href="http://maxipod.cz">Michal Semelka</a>, our tip <a href="http://www.darkovacentrala.cz">Dárky pro muže i ženy</a> </div>-->
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
-<head>
-	<title>Edward HUANG</title>
-	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" type="text/css" href="source/screen.css" />
-	<script src="myJS.js"></script>
-	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-</head>
-<body onload="load_index()">
+<!DOCTYPE HTML>
+<html lang="en">
 
-<div id="main">
-	<div id="content">
-	</div>
-		<div id="menu">
-    		<ul>
-      			<li><div onclick="load_index()">1. Home</div></li>
-      			<li><div onclick="load_course()">2. Course</div></li>
-      			<li><div onclick="load_project()">3. Projects</div></li>
-      			<li>
-					<div onclick="load_contact()">4. Contact</div>
-					<a class="link"href="https://github.com/QawsQAER/">My github page</a>
-				</li>
-			</ul>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="A simple personal webpage">
+	<meta name="author" content="Edward ZILONG HUANG">
+	<!--
+	ICON, not used currently
+	<link rel="icon" href="favicon.ico">
+	-->
+
+	<title>Edward HUANG's homepage</title>
+	<!-- css files -->
+	<link href='dist/css/bootstrap.min.css' rel='stylesheet'>
+	<link href='dist/css/bootstrap-theme.min.css' rel='stylesheet'>
+	<!-- by the theme template on bootstrap's tutorial-->
+	<link href='css/theme.css' rel='stylesheet'>
+	<!-- 
+		by the sticky footer template tutorial
+		http://getbootstrap.com/examples/sticky-footer/
+	-->
+	<link href='css/sticky-footer.css' rel='stylesheet'>
+
+	<script src='assets/js/ie-emulation-modes-warning.js'></script>
+</head>
+
+<body role="document">
+	<!-- Fixed navbar-->
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class='sr-only'>Toggle navigation</span>
+				<span class='icon-bar'>
+				<span class='icon-bar'>
+				<span class='icon-bar'>
+				</button>
+				<a class='navbar-brand' href='#'>Edward's webpage</a>
+			</div>
+
+			<div id='navbar' class='navbar-collapse collapse'>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#news">News</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact Info</a></li>
+				</ul>
+			</div>
+
 		</div>
-	<div class="clear"></div>
+	</nav>
+
+	<div class="container theme-showcase" role="main">
+		<div class="jumbotron">
+			<h2>WELCOME</h2>
+			<p>
+			I'm a master student of Carnegie Mellon Silicon Valley
+			</p>
+			<div id="avatar-container">
+			<img class='img-rounded' src="avatar_short.png"/>
+			</div>
+		</div>
+
+		<a name="project"></a>
+		<div class="page-header">
+			<h1>Projects</h1>
+		</div>
+		<div id="project">
+			
+			<div class="project-slot">
+				<h3>Local cloud computing using Openstack and BDAS</h3>
+				<p> This project try to set up a local cloud computing environment using <mark>Openstack</mark> and Berkeley Data Analytic Stack in the local servers in our campus
+				</p>
+			</div>
+			
+			<div class="project-slot">
+				<h3>
+			</div>
+			<div class="project-slot">
+			<h3>ESDC 2014</h4>
+			</div>
+		
+		</div>
+
+		<a name="about"></a>
+		<div class="page-header">
+			<h1>About me</h1>
+		</div>
+		<a name="contact"></a>
+		<div class="page-header">
+			<h1>Contacts</h1>
+		</div
+		<address>
+		<strong>Carnegie Mellon University Silicon Valley</strong><br>
+  		NASA Ames Research Park Bldg. 23<br>
+  		MOFFETT FIELD, CA 94035<br>
+  		<abbr title="Phone">P:</abbr> (669) 226-2112
+		</address>
+
+		<address>
+		<strong>Edward ZILONG HUANG</strong><br>
+		<a href="mailto:#">huangxx_2155@live.com</a>
+		</address>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<p class="text-muted">Powered by bootstrap</p>
+		</div>
+	</footer>
 </body>
-</html>
